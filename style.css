@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+body {
+    background-color: #e7eeef;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 55px;
+    background: #1b1c1d;
+  }
+.logo {
+    display: flex;
+    font-size: 26px;
+    color: white;
+    margin-left: 100px;
+}
+.logo img {
+    width: 25px;
+    align-items: center;
+}
+.items {
+    display: flex;
+    list-style-type: none;
+}
+.items li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px 5px;
+    margin: 0px 30px;
+}
+.items li a:hover {
+    cursor: pointer;
+    color: #088837;
+    background-color: white;
+}
+.buttons {
+    margin-right: 100px;
+    display: flex;
+}
+#signup button {
+    font-size: 15px;
+    color: white;
+    border: 2px solid #252a32;
+    background-color: #303741;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    font-family: SourceCodePro, monaco, Courier, monospace;
+}
+
+#login button {
+    font-size: 15px;
+    color: white;
+    border: 2px solid #088837;
+    background-color: #29b35b;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    font-family: SourceCodePro, monaco, Courier, monospace;
+}
+#signup button:hover {
+    cursor: pointer;
+    background-color: #4e5155;
+}
+
+#login button:hover {
+    cursor: pointer;
+    background-color: #5fca86;
+}
+.block1 {
+    padding: 10px;
+    margin-left: 0px;
+    background: white;
+}
+
+.block1 p {
+    padding: 10px;
+    margin-left: 80px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #738f93;
+}
+
+.block1 h1 {
+    padding: 5px;
+    margin-left: 83px;
+    font-size: 25px;
+}
+.block2 {
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.block2 h2 {
+    margin-left: 83px;
+    font-size: 20px;
+    margin: 30px 85px;
+}
+
+.block2blks {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0px 83px;
+}
+
+#blk {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#blk p {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #738f93;
+}
+
+#blk h3 {
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+#blkbtn1 button {
+    font-size: 20px;
+    color: white;
+    border: 2px solid #088837;
+    background-color: #29b35b;
+    padding: 15px 20px;
+    margin: 10px 10px;
+}
+
+#blkbtn2 button {
+    font-size: 20px;
+    color: #088837;
+    border: 2px solid #088837;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 10px 10px;
+}
+
+#blkbtn1 button:hover {
+    cursor: pointer;
+    color: #088837;
+    border: 2px solid #088837;
+    background-color: white;
+    box-shadow: rgba(79, 79, 83, 0.2) 0px 7px 29px 0px;
+}
+
+#blkbtn2 button:hover {
+    color: white;
+    border: 2px solid #088837;
+    background-color: #29b35b;
+    cursor: pointer;
+    box-shadow: rgba(79, 79, 83, 0.2) 0px 7px 29px 0px;
+}
+
+.block3 {
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.block3 h2 {
+    margin-left: 83px;
+    font-size: 20px;
+    margin: 30px 85px;
+}
+
+.block3blks {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0px 83px;
+}
+
+#blk3 {
+    width: 28%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#blk3_1 {
+    color: white;
+    width: 28%;
+    background-color: #0e141e;
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#blk3 h3 {
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+#blk3_1 h3 {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+#blk3_1 p {
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+#blk3btn1 button {
+    font-size: 15px;
+    color: #088837;
+    border: 2px solid #088837;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 35px 10px 10px 10px;
+}
+
+#blk3btn3 button {
+    font-size: 15px;
+    color: #0e141e;
+    border: 2px solid #0e141e;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 8px 10px 8px 10px;
+}
+
+#blk3btn1 button:hover {
+    cursor: pointer;
+    box-shadow: rgba(79, 79, 83, 0.2) 0px 7px 29px 0px;
+    color: white;
+    border: 2px solid #088837;
+    background-color: #29b35b;
+}
+
+#blk3btn3 button:hover {
+    cursor: pointer;
+    box-shadow: rgba(79, 79, 83, 0.2) 0px 7px 29px 0px;
+    color: #29b35b;
+    border: 2px solid #088837;
+}
+
+.block4 {
+    padding: 10px;
+    margin-left: 0px;
+}
+
+.block4 h2 {
+    margin-left: 83px;
+    font-size: 20px;
+    margin: 30px 85px;
+}
+
+.block4blks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0px 83px;
+}
+
+#blk4 {
+    width: 33.33%;
+    background-color: white;
+    padding: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#blk4 h3 {
+    font-size: 20px;
+    padding: 20px 20px;
+}
+
+#blk4 :hover {
+    box-shadow: rgba(79, 79, 83, 0.2) 0px 7px 29px 0px;
+}
